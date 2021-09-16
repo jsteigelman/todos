@@ -1,6 +1,6 @@
 # To-Do List
 
-Stay organized and manage your day-to-day tasks with this convenient to-do app.
+Stay organized and manage your day-to-day tasks with this convenient to-do list tracker.
 
 ## Live Site URL
 [https://todos-steigelman.netlify.app/](https://todos-steigelman.netlify.app/)
