@@ -1,0 +1,202 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+*:focus {
+    outline: none;
+    /* box-shadow: 0 0 10px #F7668C; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #0F0F0F;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Container */
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+/* Header */
+
+.header {
+  color: white;
+  padding: 2rem 0;
+}
+
+.header__title {
+  font-size: 4.8rem;
+  margin-bottom: 0.4rem;
+  font-weight: 800;
+}
+
+.header__subtitle {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #8a8f98;
+}
+
+/* Actions Bar */
+
+.actions {
+  padding: 1rem;
+}
+
+.actions__container {
+  align-items: center;
+  display: flex;
+  max-width: 60rem;
+  margin: 0 auto;
+  min-height: 3rem;
+  padding: 0 1.6rem;
+}
+
+.actions__container .filter {
+    border: 2px solid #181B1D;
+}
+
+.actions__container--spaced {
+  justify-content: space-between;
+}
+
+.hide-completed {
+    color: #3c3c4d;
+}
+
+/* Form Inputs */
+
+.input {
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  height: 3rem;
+  margin-right: 1.6rem;
+  padding: 1.8rem 8rem 1.8rem 0.8rem;
+  background-color: transparent;
+  color: #d1d1d2;
+
+  background: 
+  linear-gradient(#181818,#181818) padding-box, 
+  linear-gradient(to bottom right, rgb(247, 102, 140), rgb(134, 91, 174)) border-box;
+ border: 2px solid transparent;
+
+}
+
+.input::placeholder {
+    color: #d1d1d2;
+}
+
+.checkbox {
+  display: flex;
+  align-items: baseline;
+}
+
+.checkbox > input {
+  margin-right: 0.4rem;
+}
+
+.button {
+  background-image: linear-gradient(to bottom right, rgb(247, 102, 140), rgb(134, 91, 174));
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 300;
+  padding: 0.94rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background: #0F0F0F;
+    background-image: linear-gradient(to bottom right, rgb(247, 102, 140, 0.6), rgb(134, 91, 174, 0.6));
+
+}
+
+.button--secondary {
+  background: #888888;
+  border-bottom: 2px solid #717171;
+}
+
+.button--text {
+  background: none;
+  border: none;
+  color: #86868b;
+}
+
+.button--text:hover {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Note List Item */
+
+.list-item {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  background: #181818;
+  border: 2px solid #181B1D;
+  border-radius: 12px;
+  margin: 1.6rem 0;
+  padding: 1rem 1.6rem;
+  display: block;
+  transition: background 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item__container {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 400;
+  align-items: baseline;
+}
+
+.list-item__container > *:first-child {
+  margin-right: 0.8rem;
+}
+
+.list-item:hover {
+  background: #30303d;
+  border: 2px solid #30303d;
+}
+
+.list-item__title {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.list-item__subtitle {
+  color: #666;
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.list-title {
+  margin: 3.2rem 0 1.6rem;
+}
+
+.empty-message {
+  margin: 3.2rem 0;
+}

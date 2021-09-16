@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <link href="/images/favicon.png" rel="icon" >
+        <link href="/styles/styles.css" rel="stylesheet" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <h1 class="header__title">
+                    To-Do List
+                </h1>
+                <h2 class="header__subtitle">
+                    Stay organized and manage your day-to-day tasks.
+                </h2>
+            </div>
+        </div>
+
+        <div class="actions">
+            <div class="actions__container">
+                <input id="input-text" class="input filter" type="text" placeholder="Filter todos">
+                <label class="checkbox hide-completed" >
+                    <input type="checkbox" id="hide-completed" name="hideCompleted">
+                    Hide Completed
+                </label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="todo-div"></div>
+            <form id="create-todo-form">
+                <input type="text" class="input" name="formInput" placeholder="Create a new todo">
+                <button class="button">Add Todo</button>
+            </form>
+        </div>
+        
+        <script src="/scripts/uuid.js"></script>
+        <script src="/scripts/todo-functions.js"></script>
+        <script src="/scripts/todo-app.js"></script>
+    </body>
+</html>
