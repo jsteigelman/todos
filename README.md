@@ -3,7 +3,7 @@
 Stay organized and manage your day-to-day tasks with this convenient to-do app.
 
 ## Live Site URL
-[https://notes-app-steigelman.netlify.app/](https://notes-app-steigelman.netlify.app/)
+[https://todos-steigelman.netlify.app/](https://todos-steigelman.netlify.app/)
 
 ## Functionality
 * User can create and delete to-do items
